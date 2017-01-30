@@ -1,0 +1,26 @@
+<template>
+  <div>
+    content
+    <a v-link="{path: '/userList'}">demo</a>
+  </div>
+</template>
+<style scoped>
+
+</style>
+<script>
+import NProgress from 'nprogress'
+import action from '../action/action'
+export default {
+  data () {
+    return {
+
+    }
+  },
+  created () {
+
+  },
+  methods: {
+
+  }
+}
+</script>
